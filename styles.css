@@ -625,7 +625,9 @@ footer > p {
         font-size: 1.1rem;
     }
 
-
+    nav a:hover {
+        font-size: 1.1rem;
+    }
 
     /* Font sizes */
     #about-me h1, #Projects h1, #Contact h1 {
@@ -638,6 +640,12 @@ footer > p {
 
     #about-me p, .contained.one p, #Projects > p, #Contact p {
         font-size: 0.9rem;
+    }
+
+    #about-me p, #Contact p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     /* Form */
@@ -670,5 +678,22 @@ footer > p {
         width: 85%;
         margin: 2vh auto 0 auto;
         border-top: solid 1px white;
+    }
+}
+
+@media (max-width: 390px) {
+    /* Header */
+    #profile {
+        padding-top: 1vh;
+        font-size: 0.85rem;
+    }
+
+    nav {
+        margin: 4vh auto 2vh;
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        font-size: 1rem;
     }
 }
