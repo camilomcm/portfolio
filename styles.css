@@ -429,6 +429,10 @@ footer > p {
         border-radius: 50%;
     }
 
+    #skills {
+        font-size: 1.2rem;
+    }
+
     #project-data {
         padding: 0 6%;
     }
@@ -515,6 +519,14 @@ footer > p {
         width: 90%;
     }
 
+    #welcome-section h1 {
+        font-size: 4.8rem;
+    }
+    
+    #welcome-section p {
+        font-size: 1.4rem;
+    }
+
     #form {
         width: 75%;
     }
@@ -552,6 +564,18 @@ footer > p {
 
     #about-me p, .contained.one p, #Projects > p, #Contact p {
         font-size: 1rem;
+    }
+
+    #welcome-section h1 {
+        font-size: 4.5rem;
+    }
+    
+    #welcome-section p {
+        font-size: 1.2rem;
+    }
+
+    #skills {
+        font-size: 2.6vw;
     }
 
     #projects-list {
@@ -610,7 +634,13 @@ footer > p {
 
 /* Projects */
 @media (max-width: 650px) {
-
+    #welcome-section h1 {
+        font-size: 3.75rem;
+    }
+    
+    #welcome-section p {
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 540px) {
@@ -632,6 +662,14 @@ footer > p {
     /* Font sizes */
     #about-me h1, #Projects h1, #Contact h1 {
         font-size: 2rem;
+    }
+
+    #welcome-section h1 {
+        font-size: 3.5rem;
+    }
+    
+    #welcome-section p {
+        font-size: 1.1rem;
     }
 
     .contained h2 {
