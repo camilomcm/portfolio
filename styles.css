@@ -107,7 +107,7 @@ nav a:hover {
 .button a {
     text-decoration: none;
     color: #141010;
-    background-color: blue; /*#eb2632*/
+    background-color: #eb2632;
     padding: 1% 6%;
     font-family: 'Zilla Slab', serif;
     font-size: 2rem;   
@@ -268,13 +268,11 @@ nav a:hover {
 }
 
 .message {
-    /* background-color: red; */
     width: 100%;
     display: block;
 }
 
 label {
-    /* background-color: blue; */
     display: block;
     font-family: 'Zilla Slab', serif;
     font-size: 1.3rem;
