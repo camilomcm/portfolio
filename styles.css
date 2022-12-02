@@ -85,7 +85,6 @@ nav a:hover {
 }
 
 #welcome-section {
-    /* background-color: green; */
     text-align: center;
     padding: 9%;
 }
@@ -105,10 +104,10 @@ nav a:hover {
     margin-bottom: 60px;
 }
 
-#welcome-section .button a {
+.button a {
     text-decoration: none;
     color: #141010;
-    background-color: #eb2632;
+    background-color: blue; /*#eb2632*/
     padding: 1% 6%;
     font-family: 'Zilla Slab', serif;
     font-size: 2rem;   
@@ -117,7 +116,7 @@ nav a:hover {
     transition: color 0.3s, background-color 0.3s;
 }
 
-#welcome-section .button a:hover {
+.button a:hover {
     color: white;
     background-color: #141010;   
 }
@@ -161,23 +160,6 @@ nav a:hover {
 
 .contained.one p:last-of-type {
     margin-bottom: 10%;
-}
-
-.contained .button a {
-    text-decoration: none;
-    color: #141010;
-    background-color: #eb2632;
-    padding: 2% 12%;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2rem;   
-    border-radius: 10px;
-
-    transition: color 0.3s, background-color 0.3s;
-}
-
-.contained .button a:hover {
-    color: white;
-    background-color: #141010;   
 }
 
 .contained.two {
@@ -330,9 +312,9 @@ textarea:focus, input:focus{
 }
 
 button {
-    padding: 2vh 3vw;
+    padding: 1% 6%;
     font-family: 'Zilla Slab', serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
     border-radius: 10px;
     border-style: none;
     background-color: #eb2632;
@@ -444,6 +426,21 @@ footer > p {
 }
 
 @media (max-width: 890px) {
+
+    #welcome-section .button a {
+        font-size: 1.8rem;   
+    }
+
+    .contained .button a {
+        font-size: 2rem;   
+    }
+
+    button {
+        font-size: 1.3rem;
+        margin-bottom: 8vh; 
+    }
+
+
     #about-me h1, #Projects h1, #Contact h1 {
         font-size: 3rem;
     }
