@@ -108,7 +108,7 @@ nav a:hover {
     text-decoration: none;
     color: #141010;
     background-color: #eb2632;
-    padding: 1% 6%;
+    padding: 10px 40px;
     font-family: 'Zilla Slab', serif;
     font-size: 2rem;   
     border-radius: 10px;
@@ -310,7 +310,7 @@ textarea:focus, input:focus{
 }
 
 button {
-    padding: 1% 6%;
+    padding: 10px 40px;
     font-family: 'Zilla Slab', serif;
     font-size: 2rem;
     border-radius: 10px;
