@@ -210,10 +210,15 @@ nav a:hover {
 }
 
 .projects-item {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     height: 300px;
-    /* padding-bottom: 1rem; */
     margin: 10px;
+
+    transition: box-shadow 0.5s;
+}
+
+.projects-item:hover {
+    box-shadow: 5px 5px 10px gray
 }
 
 .thumbnail {
@@ -222,8 +227,10 @@ nav a:hover {
 }
 
 #project-data {
+    height: 100px;
     padding: 20px 23px;
-    /* background-color: red; */
+    background-color: #eaf6f6;
+    margin-top: -4px;
 }
 
 #project-name {
@@ -293,6 +300,7 @@ textarea {
     border-style: none;
     border-bottom: solid 1px black;
     margin-bottom: 8vh;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 ::placeholder {
