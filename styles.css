@@ -113,7 +113,7 @@ nav a:hover {
     margin-bottom: 60px;
 }
 
-.button a {
+.button {
     text-decoration: none;
     color: #141010;
     background-color: #eb2632;
@@ -125,7 +125,7 @@ nav a:hover {
     transition: color 0.3s, background-color 0.3s;
 }
 
-.button a:hover {
+.button:hover {
     color: white;
     background-color: #141010;   
 }
@@ -184,7 +184,7 @@ nav a:hover {
     font-size: 1.3rem;
 }
 
-#skills > div {
+.skills {
     background-color: #141010;
     color: white;
     margin-right: 15px;
@@ -413,7 +413,45 @@ footer > p {
     border-top: solid 1px white;
 }
 
+
+/* Dark style */
 .dark {
+    background-color: black;
+    color: white;
+}
+
+.dark-nav {
+    color: white;
+}
+
+.dark-nav:hover {
+    background-color: #f5841a;
+}
+
+.dark-btn {
+    background-color: #f5841a;
+}
+
+.dark-btn:hover {
+    color: white;
+    background-color: #f54d1a;   
+}
+
+.skills-dark {
+    background-color: white;
+    color: black;
+}
+
+.projectData-dark {
+    background-color: #141010;
+}
+
+.projectName-dark {
+    color: black;
+}
+
+.dark-input {
+    border-bottom: solid 1px white;
     background-color: black;
     color: white;
 }
